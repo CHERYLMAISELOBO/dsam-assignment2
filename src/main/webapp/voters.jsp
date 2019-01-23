@@ -13,7 +13,10 @@ table, th, td {
 }
 h3 {
  font-family : monospace;
-}
+ font-style : normal;
+ font-size : 20px;
+ font-weight: normal;
+ }
 </style> 
 <meta charset="ISO-8859-1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
