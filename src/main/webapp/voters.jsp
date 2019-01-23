@@ -7,6 +7,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+h3 {
+ font-family : monospace;
+}
+</style> 
 <meta charset="ISO-8859-1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <title>Voters</title>
@@ -16,7 +24,7 @@
 	<div id="email-text">
 		<input type="text" name="email" id="email" placeholder="Voter's Email"><br>
 	</div>
-	<a href="javascript:void(0)" id="add-email">Add</a>
+	<a href="javascript:void(0)" id="add-email">Add Email</a>
 	<input type="submit" value="Submit" name="submit">
 </form>
 <h3>Voter's List</h3>
